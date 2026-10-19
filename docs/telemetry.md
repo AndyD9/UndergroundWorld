@@ -89,9 +89,9 @@ fait qu'interrompre les ticks (le hook ne s'exécute pas).
 | `V+0x110` = vitesse angulaire | ‖ang‖ médiane 0,37, max 2,46 (rad/s plausibles) | probable, axe non vérifié |
 | Modèle actif du joueur | `controller_type` 1 / `model_type` 1 / `full_model` 1 en conduite | **modèle 1** (corps rigide, sous-pas) |
 
-**Unité de distance : probablement le mètre, à confirmer.** Vitesse maximale
-mesurée 43,6 unités/s, soit 157 km/h ou 97,5 mph si l'unité est le mètre. Il faut
-comparer avec la vitesse affichée au compteur au même moment.
+**Unité de distance : le mètre (validé).** Vitesse maximale mesurée 43,625
+unités/s, soit 157,05 km/h si l'unité est le mètre. Le maximum affiché au compteur
+était de **158 km/h** (relevé de l'utilisateur), écart inférieur à 1 %.
 
 **Transitions observées.**
 - Démarrage : GameFlow 0 → 1 → 3 (front-end) → 4 → 5 → 6 (free roam).
@@ -106,10 +106,66 @@ comparer avec la vitesse affichée au compteur au même moment.
 - Au départ, 412 ticks avec une position strictement constante (voiture immobile
   au point d'apparition, corps rigide endormi).
 
-**Restent à mesurer :**
-- le compteur, pour fixer l'unité ;
-- une course (`race_status`, `event_id`, contrôleurs IA) ;
+## Session 2 — 19 octobre 2026, 18:18–18:23 (profil moddé)
+
+Fichier `UGWorld-telemetry-20261019-181816.csv` (13 689 lignes, 3,8 Mo).
+Parcours : free roam → garage → retour en free roam → course (événement
+`0x11FA`) → retour en free roam → menu.
+
+**Stabilité.** Aucun plantage ni erreur Windows. 13 689 ticks consécutifs, **tous
+au statut 0**, sur **quatre chargements successifs**. Toutes les validations de la
+session 1 se reproduisent :
+- ‖Δpos‖/dt ÷ ‖vel‖ médiane 0,9995 ;
+- base orthonormée directe ;
+- `forward_speed = vel·b0` ;
+- cap = `atan2(b0_y, b0_x)`, erreur maximale 0,29°.
+
+**Durée de vie de P et V (validé).** Chaque chargement (GameFlow 4 → 5 → 6) crée
+un **nouveau P et un nouveau V** à de nouvelles adresses, sans aucune faute à la
+transition :
+
+| Segment | P | V | Durée | Contexte |
+| --- | --- | --- | --- | --- |
+| Free roam | `0x171B0430` | `0x170B5F38` | 85,7 s | `event` 0xFA0, `race` 4 |
+| Après garage | `0x173A0738` | `0x170AB078` | 24,9 s | sortie scriptée 4,0 s (contrôleur 0 / modèle 5), puis 1/1 |
+| Course | `0x173A1D08` | `0x17141070` | 71,3 s | `event` 0x11FA, `race` 3 → 4 → 7 |
+| Free roam | `0x173C96C8` | `0x17140668` | 2,7 s | `event` 0xFA0 |
+
+Conséquence pour le client : ne jamais conserver P ou V d'un tick à l'autre au-delà
+d'un chargement ; les relire à chaque tick, comme le fait déjà la capture.
+
+**États de course (`race_status` = [[0x008900D8]]).**
+
+| Valeur | Moment observé | Interprétation |
+| --- | --- | --- |
+| 3 | 51 ticks au début de la course (contrôleur 0 → 1) | pré-départ |
+| 4 | free roam **et** course en cours | course active (le free roam est une « course » permanente) |
+| 7 | après l'arrivée (contrôleur 0 / modèle 5, vitesse 0) | course terminée, écran de résultats |
+
+- Juste avant l'état 7, le contrôleur passe à **3** pendant 179 ticks, à
+  26,7 m/s : le jeu pilote la voiture après la ligne d'arrivée (contrôleur IA).
+- `event_id` distingue le free roam (0xFA0) de l'épreuve (0x11FA). `mode_flags`
+  reste à 0x1 et `world_flag` à 0 en conduite.
+- Une course hors région courante passe par GameFlow 6 → 4 → 5 → 6 (rechargement
+  complet), comme en statique (static-pass-2 § 2.2).
+- La boucle physique tourne aussi pendant le compte à rebours : 315 ticks
+  immobiles au début de la course.
+
+**Anomalies mineures.** Quelques écarts isolés entre Δpos et vel·dt : sauts de
+0,4 m au plus sur une seule frame, en conduite (contrôleur 1), lors de contacts à
+vitesse modérée. Interprétation : correction de position par la résolution des
+collisions, pas une téléportation. `dt` minimal 0,0053 s, maximal 0,040 s.
+
+**Hors de portée de cette télémétrie.** Elle ne lit que le joueur 0 :
+`player_count` vaut 1 en course aussi, et les voitures IA ne sont pas mesurées.
+Les lire passera par la liste `W+0x1C` (static-pass-2 § 4.1), à faire en phase 4.
+
+## Bilan de la phase 3b
+
+Critère de sortie **atteint** pour le jeu moddé : deux sessions, 21 667 ticks,
+aucune faute ni plantage. Unité (mètre), axes (Z haut, base avant/gauche/haut),
+cap, vitesses, modèle physique et durée de vie de P/V sont établis, et les
+transitions sont documentées. Restent ouverts, sans bloquer la suite :
 - le profil vanilla ;
-- des sessions répétées : nouvelle adresse de V après rechargement, retour en
-  free roam depuis le garage ;
-- la pause, à distinguer des autres arrêts de ticks.
+- l'identification de la pause ;
+- la scrutation GameFlow à 100 ms, qui manque les états brefs 2, 7 et 8.
