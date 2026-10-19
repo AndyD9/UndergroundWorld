@@ -1,0 +1,115 @@
+{
+  "sha256": "f9dd86c054878ce6276beb07c1fd61874f7a1e4bf1f241b084c65b73e24168a7",
+  "source": "community-leads.md",
+  "method": "PE section mapping; 16 bytes maximum; no disassembly or execution",
+  "candidates": [
+    {
+      "candidate": "GameFlowManager",
+      "va": "0x8654a4",
+      "rva": "0x4654a4",
+      "semantic_status": "unverified",
+      "section": ".data",
+      "file_offset": null,
+      "observation": "Virtual section tail; no initialized file bytes at this RVA"
+    },
+    {
+      "candidate": "PlayersByNumber",
+      "va": "0x8900ac",
+      "rva": "0x4900ac",
+      "semantic_status": "unverified",
+      "section": ".data",
+      "file_offset": null,
+      "observation": "Virtual section tail; no initialized file bytes at this RVA"
+    },
+    {
+      "candidate": "Player_AutoPilotOn",
+      "va": "0x5fae20",
+      "rva": "0x1fae20",
+      "semantic_status": "unverified",
+      "section": ".text",
+      "file_offset": 2076192,
+      "bytes_hex": "51568bf18b4e0485c90f84de00000083"
+    },
+    {
+      "candidate": "Player_AutoPilotOff",
+      "va": "0x5faf10",
+      "rva": "0x1faf10",
+      "semantic_status": "unverified",
+      "section": ".text",
+      "file_offset": 2076432,
+      "bytes_hex": "578bf98b4f0485c9745a837924017454"
+    },
+    {
+      "candidate": "Player_SetInputMode",
+      "va": "0x605c70",
+      "rva": "0x205c70",
+      "semantic_status": "unverified",
+      "section": ".text",
+      "file_offset": 2120816,
+      "bytes_hex": "53568bf18b862c02000083c0fe83f808"
+    },
+    {
+      "candidate": "SaveHotPosition",
+      "va": "0x8900cc",
+      "rva": "0x4900cc",
+      "semantic_status": "unverified",
+      "section": ".data",
+      "file_offset": null,
+      "observation": "Virtual section tail; no initialized file bytes at this RVA"
+    },
+    {
+      "candidate": "JumpToHotPosition",
+      "va": "0x8900cd",
+      "rva": "0x4900cd",
+      "semantic_status": "unverified",
+      "section": ".data",
+      "file_offset": null,
+      "observation": "Virtual section tail; no initialized file bytes at this RVA"
+    },
+    {
+      "candidate": "Tweak_GameSpeed",
+      "va": "0x7a5730",
+      "rva": "0x3a5730",
+      "semantic_status": "unverified",
+      "section": ".rdata",
+      "file_offset": 3823408,
+      "bytes_hex": "0000803f00004843524143455f535441"
+    },
+    {
+      "candidate": "CarTypeInfoArray",
+      "va": "0x8a1ccc",
+      "rva": "0x4a1ccc",
+      "semantic_status": "unverified",
+      "section": ".data",
+      "file_offset": null,
+      "observation": "Virtual section tail; no initialized file bytes at this RVA"
+    },
+    {
+      "candidate": "GetCarTypeInfo_Game",
+      "va": "0x610110",
+      "rva": "0x210110",
+      "semantic_status": "unverified",
+      "section": ".text",
+      "file_offset": 2162960,
+      "bytes_hex": "8b4424048b0dcc1c8a0069c090080000"
+    },
+    {
+      "candidate": "CompleatCarPhysicsInfo_BuildCarPhysicsInfo",
+      "va": "0x5ac4f0",
+      "rva": "0x1ac4f0",
+      "semantic_status": "unverified",
+      "section": ".text",
+      "file_offset": 1754352,
+      "bytes_hex": "8a44240c83ec0884c053558b6c241456"
+    },
+    {
+      "candidate": "CarRenderInfo_TriggerEffect_Game",
+      "va": "0x615cc0",
+      "rva": "0x215cc0",
+      "semantic_status": "unverified",
+      "section": ".text",
+      "file_offset": 2186432,
+      "bytes_hex": "558bec83e4f081ec84010000d9450c53"
+    }
+  ]
+}

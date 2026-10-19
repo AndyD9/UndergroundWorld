@@ -1,0 +1,1645 @@
+{
+  "evidence_id": "ev_b36dfc3d6768ec4cb143c616250a7a826725c83d39a0dfffbc75341d9b259b58",
+  "subject": {
+    "name": "SPEED2.EXE",
+    "digest": {
+      "sha256": "f9dd86c054878ce6276beb07c1fd61874f7a1e4bf1f241b084c65b73e24168a7"
+    },
+    "local_path": "C:\\Users\\PACORCS\\Documents\\DEV\\undergroundworld\\research\\binaries\\SPEED2.EXE",
+    "format": "pe",
+    "architecture": null
+  },
+  "provider": {
+    "id": "rea-pe-resources",
+    "name": "REA PE resource parser",
+    "version": "1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_pe_resources",
+  "parameters": {
+    "path": "C:\\Users\\PACORCS\\Documents\\DEV\\undergroundworld\\research\\binaries\\SPEED2.EXE",
+    "max_file_bytes": 67108864,
+    "max_entries": 16384
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "artifact": {
+      "path": "C:\\Users\\PACORCS\\Documents\\DEV\\undergroundworld\\research\\binaries\\SPEED2.EXE",
+      "sha256": "f9dd86c054878ce6276beb07c1fd61874f7a1e4bf1f241b084c65b73e24168a7",
+      "bytes": 4800512
+    },
+    "format": "pe32",
+    "machine": 332,
+    "directory": {
+      "rva": 4964352,
+      "location": {
+        "offset": 4313088,
+        "bytes": 230664
+      },
+      "data_directory_location": {
+        "offset": 448,
+        "bytes": 8
+      }
+    },
+    "directories": [
+      {
+        "location": {
+          "offset": 4313088,
+          "bytes": 40
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 3
+      },
+      {
+        "location": {
+          "offset": 4313128,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313376,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313152,
+          "bytes": 200
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 23,
+        "id_entries": 0
+      },
+      {
+        "location": {
+          "offset": 4313400,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313424,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313448,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313472,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313496,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313520,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313544,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313568,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313592,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313616,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313640,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313664,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313688,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313712,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313736,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313760,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313784,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313808,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313832,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313856,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313880,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313904,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313928,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      },
+      {
+        "location": {
+          "offset": 4313352,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 1,
+        "id_entries": 0
+      },
+      {
+        "location": {
+          "offset": 4313952,
+          "bytes": 24
+        },
+        "characteristics": 0,
+        "timestamp": 0,
+        "major_version": 0,
+        "minor_version": 0,
+        "named_entries": 0,
+        "id_entries": 1
+      }
+    ],
+    "resources": [
+      {
+        "index": 0,
+        "type": {
+          "kind": "id",
+          "id": 3
+        },
+        "name": {
+          "kind": "id",
+          "id": 1
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313104,
+            "bytes": 8
+          },
+          {
+            "offset": 4313144,
+            "bytes": 8
+          },
+          {
+            "offset": 4313392,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4313976,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 4966576,
+          "location": {
+            "offset": 4315312,
+            "bytes": 13480
+          },
+          "sha256": "1172653b672b720e318c3df314dceecbbc6e199bbed47a635429f61638af5cbf"
+        }
+      },
+      {
+        "index": 1,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_CAR_FX",
+          "utf16le_hex": "4900440049005f004300410052005f0046005800",
+          "location": {
+            "offset": 4314784,
+            "bytes": 22
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313168,
+            "bytes": 8
+          },
+          {
+            "offset": 4313416,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4313992,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5074016,
+          "location": {
+            "offset": 4422752,
+            "bytes": 18032
+          },
+          "sha256": "0439a0f0d9f47fcdb5ca2b6cbc343fbc14d12a2b6aed82fcb6f0fa713f77835e"
+        }
+      },
+      {
+        "index": 2,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_DEPTH_OF_FIELD_FX",
+          "utf16le_hex": "4900440049005f00440045005000540048005f004f0046005f004600490045004c0044005f0046005800",
+          "location": {
+            "offset": 4314910,
+            "bytes": 44
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313176,
+            "bytes": 8
+          },
+          {
+            "offset": 4313440,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314008,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5128240,
+          "location": {
+            "offset": 4476976,
+            "bytes": 4288
+          },
+          "sha256": "0f5dfbb5f8bf0bb10acadbe7006fd25cc35b893e80557e2d86c5d556db8bbda0"
+        }
+      },
+      {
+        "index": 3,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_DEPTH_WORLDHEADLIGHTREFLECT_FX",
+          "utf16le_hex": "4900440049005f00440045005000540048005f0057004f0052004c00440048004500410044004c0049004700480054005200450046004c004500430054005f0046005800",
+          "location": {
+            "offset": 4315172,
+            "bytes": 70
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313184,
+            "bytes": 8
+          },
+          {
+            "offset": 4313464,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314024,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5160048,
+          "location": {
+            "offset": 4508784,
+            "bytes": 8836
+          },
+          "sha256": "5eea2db5d2d0cde225783db25bb72431614093289df1a492b4ac3f17a7c6d344"
+        }
+      },
+      {
+        "index": 4,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_DEPTH_WORLDHEADLIGHT_FX",
+          "utf16le_hex": "4900440049005f00440045005000540048005f0057004f0052004c00440048004500410044004c0049004700480054005f0046005800",
+          "location": {
+            "offset": 4315064,
+            "bytes": 56
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313192,
+            "bytes": 8
+          },
+          {
+            "offset": 4313488,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314040,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5143952,
+          "location": {
+            "offset": 4492688,
+            "bytes": 9156
+          },
+          "sha256": "6a7f838a7263cdb0d1d5cf4d4cdff50d9f1be8250bc944299bcb2ab2d3a3bb12"
+        }
+      },
+      {
+        "index": 5,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_DEPTH_WORLDREFLECT_FX",
+          "utf16le_hex": "4900440049005f00440045005000540048005f0057004f0052004c0044005200450046004c004500430054005f0046005800",
+          "location": {
+            "offset": 4315120,
+            "bytes": 52
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313200,
+            "bytes": 8
+          },
+          {
+            "offset": 4313512,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314056,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5153112,
+          "location": {
+            "offset": 4501848,
+            "bytes": 6932
+          },
+          "sha256": "2786498a5c91b115053b453d82000509963e1175b0c6ca2c936f75a4fe462446"
+        }
+      },
+      {
+        "index": 6,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_DEPTH_WORLD_FX",
+          "utf16le_hex": "4900440049005f00440045005000540048005f0057004f0052004c0044005f0046005800",
+          "location": {
+            "offset": 4315026,
+            "bytes": 38
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313208,
+            "bytes": 8
+          },
+          {
+            "offset": 4313536,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314072,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5136576,
+          "location": {
+            "offset": 4485312,
+            "bytes": 7376
+          },
+          "sha256": "861e2eb014d860738019ce271239021d90f6358a97b6bf424566603f32b92ec2"
+        }
+      },
+      {
+        "index": 7,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_FE_FX",
+          "utf16le_hex": "4900440049005f00460045005f0046005800",
+          "location": {
+            "offset": 4314490,
+            "bytes": 20
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313216,
+            "bytes": 8
+          },
+          {
+            "offset": 4313560,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314088,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5004864,
+          "location": {
+            "offset": 4353600,
+            "bytes": 8784
+          },
+          "sha256": "b811e56840d70acf5fdd6ed0a6c5100f3903bfd57fd0b875223a6f7800e64e2b"
+        }
+      },
+      {
+        "index": 8,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_FILTER_FX",
+          "utf16le_hex": "4900440049005f00460049004c005400450052005f0046005800",
+          "location": {
+            "offset": 4314806,
+            "bytes": 28
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313224,
+            "bytes": 8
+          },
+          {
+            "offset": 4313584,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314104,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5092048,
+          "location": {
+            "offset": 4440784,
+            "bytes": 14376
+          },
+          "sha256": "c64ef53b3fc872174234f5308a72ca2d4861a9aabdbce2744e665cbfa6119d44"
+        }
+      },
+      {
+        "index": 9,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_HORIZON_FOG_FX",
+          "utf16le_hex": "4900440049005f0048004f00520049005a004f004e005f0046004f0047005f0046005800",
+          "location": {
+            "offset": 4314954,
+            "bytes": 38
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313232,
+            "bytes": 8
+          },
+          {
+            "offset": 4313608,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314120,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5132528,
+          "location": {
+            "offset": 4481264,
+            "bytes": 1348
+          },
+          "sha256": "0a3dd3419ed2b594fb63b095d58cab25cecd81f0541253fa1922ee525ea3ea54"
+        }
+      },
+      {
+        "index": 10,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_OVERBRIGHT_FX",
+          "utf16le_hex": "4900440049005f004f005600450052004200520049004700480054005f0046005800",
+          "location": {
+            "offset": 4314834,
+            "bytes": 36
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313240,
+            "bytes": 8
+          },
+          {
+            "offset": 4313632,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314136,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5106424,
+          "location": {
+            "offset": 4455160,
+            "bytes": 5692
+          },
+          "sha256": "b4c565cc091bf4d92046da18c59a6324e6e71bb55ede7cb9174409f2bc240a49"
+        }
+      },
+      {
+        "index": 11,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_RAIN_DROP_FX",
+          "utf16le_hex": "4900440049005f005200410049004e005f00440052004f0050005f0046005800",
+          "location": {
+            "offset": 4314992,
+            "bytes": 34
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313248,
+            "bytes": 8
+          },
+          {
+            "offset": 4313656,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314152,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5133880,
+          "location": {
+            "offset": 4482616,
+            "bytes": 2692
+          },
+          "sha256": "ab09b5e55fac1230dcfa553429e6e7c0ed078d4585c1649a152e1c57e4ac127a"
+        }
+      },
+      {
+        "index": 12,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_RUNWAYLIGHT_FX",
+          "utf16le_hex": "4900440049005f00520055004e005700410059004c0049004700480054005f0046005800",
+          "location": {
+            "offset": 4315274,
+            "bytes": 38
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313256,
+            "bytes": 8
+          },
+          {
+            "offset": 4313680,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314168,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5181912,
+          "location": {
+            "offset": 4530648,
+            "bytes": 13100
+          },
+          "sha256": "4c4e3a65d24826ea015340e7b7aa26c1de37b6a8f7e6130022912a1fa54b86c9"
+        }
+      },
+      {
+        "index": 13,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_SCREENFILTER_FX",
+          "utf16le_hex": "4900440049005f00530043005200450045004e00460049004c005400450052005f0046005800",
+          "location": {
+            "offset": 4314870,
+            "bytes": 40
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313264,
+            "bytes": 8
+          },
+          {
+            "offset": 4313704,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314184,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5112120,
+          "location": {
+            "offset": 4460856,
+            "bytes": 16116
+          },
+          "sha256": "387d739479185f8c5bd509ac4847854004380cc2e2d84c95764b6a0274b26874"
+        }
+      },
+      {
+        "index": 14,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_SKYMORPH_FX",
+          "utf16le_hex": "4900440049005f0053004b0059004d004f005200500048005f0046005800",
+          "location": {
+            "offset": 4315242,
+            "bytes": 32
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313272,
+            "bytes": 8
+          },
+          {
+            "offset": 4313728,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314200,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5168888,
+          "location": {
+            "offset": 4517624,
+            "bytes": 13024
+          },
+          "sha256": "eb894304090c6bbc715c92a467e8c8902c9c20ebc2056f1d00845e4a4e0426aa"
+        }
+      },
+      {
+        "index": 15,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_WORLDBONE_FX",
+          "utf16le_hex": "4900440049005f0057004f0052004c00440042004f004e0045005f0046005800",
+          "location": {
+            "offset": 4314750,
+            "bytes": 34
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313280,
+            "bytes": 8
+          },
+          {
+            "offset": 4313752,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314216,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5064864,
+          "location": {
+            "offset": 4413600,
+            "bytes": 9148
+          },
+          "sha256": "e93261257fe37423de813daca0739187554569b83229f1df5a1eb5ab47597867"
+        }
+      },
+      {
+        "index": 16,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_WORLDHEADLIGHTNODEPTH_FX",
+          "utf16le_hex": "4900440049005f0057004f0052004c00440048004500410044004c0049004700480054004e004f00440045005000540048005f0046005800",
+          "location": {
+            "offset": 4314550,
+            "bytes": 58
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313288,
+            "bytes": 8
+          },
+          {
+            "offset": 4313776,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314232,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5024600,
+          "location": {
+            "offset": 4373336,
+            "bytes": 7544
+          },
+          "sha256": "12764657288ea212727d6a6ea4eaa0efd3fc81b54d963571f3f266bb26a94cea"
+        }
+      },
+      {
+        "index": 17,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_WORLDHEADLIGHTREFLECT_FX",
+          "utf16le_hex": "4900440049005f0057004f0052004c00440048004500410044004c0049004700480054005200450046004c004500430054005f0046005800",
+          "location": {
+            "offset": 4314692,
+            "bytes": 58
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313296,
+            "bytes": 8
+          },
+          {
+            "offset": 4313800,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314248,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5056064,
+          "location": {
+            "offset": 4404800,
+            "bytes": 8800
+          },
+          "sha256": "36eff76b5b15e467bad0f648e624d52668929ae1527cb134976a9dde2ca2ec98"
+        }
+      },
+      {
+        "index": 18,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_WORLDHEADLIGHT_FX",
+          "utf16le_hex": "4900440049005f0057004f0052004c00440048004500410044004c0049004700480054005f0046005800",
+          "location": {
+            "offset": 4314608,
+            "bytes": 44
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313304,
+            "bytes": 8
+          },
+          {
+            "offset": 4313824,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314264,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5032144,
+          "location": {
+            "offset": 4380880,
+            "bytes": 9108
+          },
+          "sha256": "0b0cfc00a30eb15f360fecc5731eb7a55914bda6d1e3d663c1b3ebea1207f53d"
+        }
+      },
+      {
+        "index": 19,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_WORLDMIN_FX",
+          "utf16le_hex": "4900440049005f0057004f0052004c0044004d0049004e005f0046005800",
+          "location": {
+            "offset": 4314422,
+            "bytes": 32
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313312,
+            "bytes": 8
+          },
+          {
+            "offset": 4313848,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314280,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 4993184,
+          "location": {
+            "offset": 4341920,
+            "bytes": 860
+          },
+          "sha256": "b2b7e7c582cf413d6674125d14cd60f74d7dd303f15f3a50a5782cc5b200d21b"
+        }
+      },
+      {
+        "index": 20,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_WORLDNODEPTH_FX",
+          "utf16le_hex": "4900440049005f0057004f0052004c0044004e004f00440045005000540048005f0046005800",
+          "location": {
+            "offset": 4314510,
+            "bytes": 40
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313320,
+            "bytes": 8
+          },
+          {
+            "offset": 4313872,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314296,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5013648,
+          "location": {
+            "offset": 4362384,
+            "bytes": 10952
+          },
+          "sha256": "1aac5cde0765b238a8f3d29e1111c20118b3b581cda4912a7d18fa5d2550fae5"
+        }
+      },
+      {
+        "index": 21,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_WORLDNOFOG_FX",
+          "utf16le_hex": "4900440049005f0057004f0052004c0044004e004f0046004f0047005f0046005800",
+          "location": {
+            "offset": 4314454,
+            "bytes": 36
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313328,
+            "bytes": 8
+          },
+          {
+            "offset": 4313896,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314312,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 4994048,
+          "location": {
+            "offset": 4342784,
+            "bytes": 10812
+          },
+          "sha256": "942b9c9e454cb44b15b7ddab8c8ecc934623fdef6b0f7ea918581ce6f22d2e96"
+        }
+      },
+      {
+        "index": 22,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_WORLDREFLECT_FX",
+          "utf16le_hex": "4900440049005f0057004f0052004c0044005200450046004c004500430054005f0046005800",
+          "location": {
+            "offset": 4314652,
+            "bytes": 40
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313336,
+            "bytes": 8
+          },
+          {
+            "offset": 4313920,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314328,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 5041256,
+          "location": {
+            "offset": 4389992,
+            "bytes": 14808
+          },
+          "sha256": "769ee0f6f07791fe3bf5609432b41665147130fb623a9499d65f8b7d841bfc71"
+        }
+      },
+      {
+        "index": 23,
+        "type": {
+          "kind": "id",
+          "id": 10
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_WORLD_FX",
+          "utf16le_hex": "4900440049005f0057004f0052004c0044005f0046005800",
+          "location": {
+            "offset": 4314396,
+            "bytes": 26
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313112,
+            "bytes": 8
+          },
+          {
+            "offset": 4313344,
+            "bytes": 8
+          },
+          {
+            "offset": 4313944,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314344,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 4980080,
+          "location": {
+            "offset": 4328816,
+            "bytes": 13100
+          },
+          "sha256": "e3b6eb7abba2bd61cf36c2a56cf3bbc489479580d12d1d695cfc92df25b38bbb"
+        }
+      },
+      {
+        "index": 24,
+        "type": {
+          "kind": "id",
+          "id": 14
+        },
+        "name": {
+          "kind": "name",
+          "name": "IDI_ICON1",
+          "utf16le_hex": "4900440049005f00490043004f004e003100",
+          "location": {
+            "offset": 4314376,
+            "bytes": 20
+          }
+        },
+        "language": {
+          "kind": "id",
+          "id": 1033
+        },
+        "entry_locations": [
+          {
+            "offset": 4313120,
+            "bytes": 8
+          },
+          {
+            "offset": 4313368,
+            "bytes": 8
+          },
+          {
+            "offset": 4313968,
+            "bytes": 8
+          }
+        ],
+        "data_entry_location": {
+          "offset": 4314360,
+          "bytes": 16
+        },
+        "code_page": 0,
+        "reserved": 0,
+        "payload": {
+          "rva": 4980056,
+          "location": {
+            "offset": 4328792,
+            "bytes": 20
+          },
+          "sha256": "4bf38899266597e70bca465d28ed320b378ffddaa226f340546872a8da79f7c3"
+        }
+      }
+    ],
+    "icon_groups": [
+      {
+        "resource_index": 24,
+        "images": [
+          {
+            "location": {
+              "offset": 4328798,
+              "bytes": 14
+            },
+            "width": 32,
+            "height": 32,
+            "color_count": 0,
+            "reserved": 0,
+            "planes": 1,
+            "bit_count": 24,
+            "declared_bytes": 13480,
+            "resource_id": 1,
+            "candidate_resource_indices": [
+              0
+            ],
+            "same_language_resource_index": 0,
+            "size_matches": true
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "status": "complete",
+      "examined_entries": 53,
+      "resources": 25
+    },
+    "limitations": [
+      "Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.",
+      "Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.",
+      "Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected."
+    ]
+  },
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.",
+    "Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.",
+    "Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected."
+  ],
+  "relationship_coverage": null,
+  "locations": [
+    {
+      "kind": "artifact-path",
+      "path": "C:\\Users\\PACORCS\\Documents\\DEV\\undergroundworld\\research\\binaries\\SPEED2.EXE"
+    }
+  ],
+  "evidence_links": []
+}

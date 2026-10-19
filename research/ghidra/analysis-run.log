@@ -1,0 +1,238 @@
+openjdk version "25.0.4.1" 2026-08-18 LTS
+OpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)
+OpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)
+INFO  Using log config file: jar:file:/C:/Users/PACORCS/Downloads/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (951 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Starting cache cleanup: C:\Users\PACORCS\AppData\Local\ghidra\fscache2 (FileCacheMaintenanceDaemon)  
+INFO  Finished cache cleanup, estimated storage used: 0 (FileCacheMaintenanceDaemon)  
+INFO  Headless startup complete (5931 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/C:/Users/PACORCS/Downloads/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: C:\Users\PACORCS\Documents\DEV\undergroundworld\research\ghidra\projects\UGWorld-6ed470fc646e492b8255f886e9bc3f8b (HeadlessAnalyzer)  
+INFO  Creating project: C:\Users\PACORCS\Documents\DEV\undergroundworld\research\ghidra\projects\UGWorld-6ed470fc646e492b8255f886e9bc3f8b (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: C:\Users\PACORCS\Documents\DEV\undergroundworld\research\ghidra\projects\UGWorld-6ed470fc646e492b8255f886e9bc3f8b (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///C:/Users/PACORCS/Documents/DEV/undergroundworld/research/binaries/SPEED2.EXE (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:32:default:windows (ProgramLoader)  
+INFO  Using Library Search Path: [., C:\Windows\SysWOW64, C:\Program Files\Eclipse Adoptium\jdk-25.0.4.101-hotspot\bin, C:\Windows\Sun\Java\bin, C:\Windows\system32, C:\Windows, C:\Users\PACORCS\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell, C:\Users\PACORCS\.codex\tmp\arg0-windows\codex-arg0ISCZkA, C:\Users\PACORCS\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin, C:\Users\PACORCS\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin, C:\Users\PACORCS\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin, C:\Users\PACORCS\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files\dotnet\, C:\Program Files\Git\cmd, C:\Program Files\nodejs\, C:\ProgramData\chocolatey\bin, C:\Users\PACORCS\AppData\Local\Microsoft\WindowsApps, C:\Users\PACORCS\.dotnet\tools, C:\Users\PACORCS\AppData\Local\Programs\Microsoft VS Code\bin, C:\Users\PACORCS\AppData\Roaming\npm, C:\Users\PACORCS\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback, C:\Users\PACORCS\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin, C:\Users\PACORCS\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd, C:\Users\PACORCS\AppData\Local\OpenAI\Codex\bin\ce4759538b7f2f1a, C:\Users\PACORCS\AppData\Local\OpenAI\Codex\bin\896a0166b774037a] (ProgramLoader)  
+WARN  Invalid or missing function at 4d513020 (ExportDataDirectory)  
+INFO  TLS callbacks at 6982dbe8 (TLSDirectory)  
+WARN  Invalid or missing function at 69d616e4 (ExportDataDirectory)  
+WARN  Invalid or missing function at 69e9f8f8 (ExportDataDirectory)  
+WARN  Invalid or missing function at 4f7c43d4 (ExportDataDirectory)  
+INFO  Additional info:
+Loading file:///C:/Users/PACORCS/Documents/DEV/undergroundworld/research/binaries/SPEED2.EXE?MD5=6445adbf4e8d64be51e96a69bba168a4...
+------------------------------------------------
+
+Searching 25 paths for library ADVAPI32.DLL...
+Loading file:///C:/Windows/SysWOW64/advapi32.dll?MD5=950c6d7d9ee5088375a96ae8436eaa70...
+Created exports file: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\advapi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 25 paths for library D3D9.DLL...
+Loading file:///C:/Windows/SysWOW64/d3d9.dll?MD5=d94f502d3435d9c8339fddb9c7734859...
+[d3d9.dll]: failed to create WEVTResource at 10182798: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\d3d9.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 25 paths for library DDRAW.DLL...
+Loading file:///C:/Windows/SysWOW64/ddraw.dll?MD5=25b8323e0d0af3ff5ebd962c3599ce4d...
+Created exports file: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\ddraw.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 25 paths for library DINPUT8.DLL...
+Loading file:///C:/Windows/SysWOW64/dinput8.dll?MD5=ce3b1bf2da18b3f90a08b147a5243724...
+Created exports file: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\dinput8.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 25 paths for library DSOUND.DLL...
+Loading file:///C:/Windows/SysWOW64/dsound.dll?MD5=0eaa0a38ccc37fd279495071724f1275...
+[dsound.dll]: failed to create WEVTResource at 510f9498: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\dsound.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 25 paths for library GDI32.DLL...
+Loading file:///C:/Windows/SysWOW64/gdi32.dll?MD5=294936e7ad3113e4281a46be514daf3d...
+Created exports file: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\gdi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 25 paths for library KERNEL32.DLL...
+Loading file:///C:/Windows/SysWOW64/kernel32.dll?MD5=0ce1f5f3d23f51b9ecfd453e34ca0af7...
+Created exports file: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\kernel32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 25 paths for library NETAPI32.DLL...
+Loading file:///C:/Windows/SysWOW64/netapi32.dll?MD5=b87c412295a901b441e06549fc7798c2...
+Created exports file: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\netapi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 25 paths for library SHELL32.DLL...
+Loading file:///C:/Windows/SysWOW64/shell32.dll?MD5=2d8941f8841854eb9705097a01b6f3f3...
+Created exports file: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\shell32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 25 paths for library SHFOLDER.DLL...
+Loading file:///C:/Windows/SysWOW64/shfolder.dll?MD5=230d5268a66542b740f84da3063c58da...
+Created exports file: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\shfolder.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 25 paths for library TAPI32.DLL...
+Loading file:///C:/Windows/SysWOW64/tapi32.dll?MD5=bcce3f7d95668aec703055cc426a27d6...
+Created exports file: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\tapi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 25 paths for library USER32.DLL...
+Loading file:///C:/Windows/SysWOW64/user32.dll?MD5=0927ed96558e5b2392df6cf7582f2655...
+[user32.dll]: failed to create WEVTResource at 69eb6a70: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\user32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 25 paths for library WINMM.DLL...
+Loading file:///C:/Windows/SysWOW64/winmm.dll?MD5=cd17feff84b207001e3c3f4020bd33a5...
+[winmm.dll]: failed to create WEVTResource at 4f0a1310: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\winmm.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 25 paths for library WS2_32.DLL...
+Loading file:///C:/Windows/SysWOW64/ws2_32.dll?MD5=fc4a6145ddd1b64983e8700601c71fc6...
+[ws2_32.dll]: failed to create WEVTResource at 4f7cc4b8: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\ws2_32.exports
+Library not saved to project.
+------------------------------------------------
+
+Applying C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\advapi32.exports
+Applying C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\ddraw.exports
+Applying C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\dinput8.exports
+Applying C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\dsound.exports
+Applying C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\gdi32.exports
+Applying C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\kernel32.exports
+Applying C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\netapi32.exports
+Applying C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\shell32.exports
+Applying C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\shfolder.exports
+Applying C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\tapi32.exports
+Applying C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\user32.exports
+Applying C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\winmm.exports
+Applying C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\ws2_32.exports
+Applying C:\Users\PACORCS\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\d3d9.exports
+Linking the External Programs of 'SPEED2.EXE' to imported libraries...
+  [ADVAPI32.DLL] -> not found in project
+  [DDRAW.DLL] -> not found in project
+  [DINPUT8.DLL] -> not found in project
+  [DSOUND.DLL] -> not found in project
+  [GDI32.DLL] -> not found in project
+  [KERNEL32.DLL] -> not found in project
+  [NETAPI32.DLL] -> not found in project
+  [SHELL32.DLL] -> not found in project
+  [SHFOLDER.DLL] -> not found in project
+  [TAPI32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [WINMM.DLL] -> not found in project
+  [WS2_32.DLL] -> not found in project
+  [D3D9.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///C:/Users/PACORCS/Documents/DEV/undergroundworld/research/binaries/SPEED2.EXE (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: C:\Users\PACORCS\Downloads\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: missing PDB information in program metadata (PdbUniversalAnalyzer)  
+INFO  Packed database cache: C:\Users\PACORCS\AppData\Local\ghidra\packed-db-cache (PackedDatabaseCache)  
+ERROR Invalid PNG data at 007dbe98 (PngDataType)  
+ERROR Invalid PNG data at 007dc4f0 (PngDataType)  
+WARN  Decompiling 004ca6d0: Unable to read bytes at ram:01000000 (DecompileCallback)  
+WARN  Decompiling 0070cf98: Unable to read bytes at ram:01000100 (DecompileCallback)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.613 secs
+    Apply Data Archives                        0.246 secs
+    Call Convention ID                         0.544 secs
+    Call-Fixup Installer                       0.215 secs
+    Create Address Tables                      0.618 secs
+    Create Address Tables - One Time           1.760 secs
+    Create Function                            2.707 secs
+    Data Reference                             1.853 secs
+    Decompiler Switch Analysis               101.226 secs
+    Demangler Microsoft                        0.126 secs
+    Disassemble                                5.181 secs
+    Disassemble Entry Points                   2.803 secs
+    Embedded Media                             0.049 secs
+    External Entry References                  0.000 secs
+    Function ID                                5.336 secs
+    Function Start Pre Search                  0.059 secs
+    Function Start Search                      0.335 secs
+    Function Start Search After Code           0.278 secs
+    Function Start Search After Data           0.277 secs
+    Function Start Search delayed - One Time   0.049 secs
+    Non-Returning Functions - Discovered       2.608 secs
+    Non-Returning Functions - Known            0.008 secs
+    PDB Universal                              0.002 secs
+    Reference                                  2.006 secs
+    Scalar Operand References                  3.084 secs
+    Shared Return Calls                        1.681 secs
+    Stack                                     38.057 secs
+    Subroutine References                      2.797 secs
+    Subroutine References - One Time           0.015 secs
+    Windows x86 PE Exception Handling          4.031 secs
+    Windows x86 PE RTTI Analyzer               0.166 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.016 secs
+    WindowsResourceReference                   4.695 secs
+    X86 Function Callee Purge                  5.480 secs
+    x86 Constant Reference Analyzer           33.413 secs
+-----------------------------------------------------
+     Total Time   222 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///C:/Users/PACORCS/Documents/DEV/undergroundworld/research/binaries/SPEED2.EXE (HeadlessAnalyzer)  
+INFO  /SPEED2.EXE: file created (PACORCS) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /SPEED2.EXE (UGWorld-6ed470fc646e492b8255f886e9bc3f8b:/SPEED2.EXE) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

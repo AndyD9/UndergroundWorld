@@ -1,0 +1,26 @@
+# Proprietary game payloads: never commit a local installation.
+/Need for Speed*/
+/research/binaries/*
+!/research/binaries/.gitkeep
+/research/upstream/
+/research/ghidra/projects/
+/research/ghidra/exports/
+*.exe
+*.dll
+*.asi
+*.bin
+*.bun
+*.viv
+*.big
+*.fsh
+*.pak
+*.dat
+*.cab
+*.iso
+*.zip
+*.7z
+*.pdb
+*.obj
+/build*/
+/.vs/
+__pycache__/

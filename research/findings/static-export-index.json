@@ -1,0 +1,256 @@
+{
+  "binary_sha256": "f9dd86c054878ce6276beb07c1fd61874f7a1e4bf1f241b084c65b73e24168a7",
+  "exports": [
+    {
+      "file": "research/ghidra/exports/lifecycle.json",
+      "sha256": "903f6dfd97ad6aa19c268d70fd09a6ec55f9a2d021590b23c90d9a30fe492cfe",
+      "targets": [
+        {
+          "va": "0x005f52c0",
+          "rva": "0x1f52c0",
+          "references": 2,
+          "instructions": 138,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x005f3e10",
+          "rva": "0x1f3e10",
+          "references": 1,
+          "instructions": 71,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x006063b0",
+          "rva": "0x2063b0",
+          "references": 1,
+          "instructions": 67,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x00609ce0",
+          "rva": "0x209ce0",
+          "references": 1,
+          "instructions": 476,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x00600900",
+          "rva": "0x200900",
+          "references": 1,
+          "instructions": 47,
+          "decompile_completed": true
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/orientation-tick.json",
+      "sha256": "76fd3716526a5396158054defc38d8eef0241585e2216784b9c096ed9058deea",
+      "targets": [
+        {
+          "va": "0x005dca30",
+          "rva": "0x1dca30",
+          "references": 4,
+          "instructions": 23,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x005f5010",
+          "rva": "0x1f5010",
+          "references": 7,
+          "instructions": 50,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x00592160",
+          "rva": "0x192160",
+          "references": 7,
+          "instructions": 26,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x005811c0",
+          "rva": "0x1811c0",
+          "references": 1,
+          "instructions": 235,
+          "decompile_completed": true
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/player-path.json",
+      "sha256": "73c3c45a420174d785bb7b3f5abd9cebe3fc038cc26439e1d09345af74375b79",
+      "targets": [
+        {
+          "va": "0x005eb450",
+          "rva": "0x1eb450",
+          "references": 1,
+          "instructions": 55,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x00600e10",
+          "rva": "0x200e10",
+          "references": 1,
+          "instructions": 76,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x005f1670",
+          "rva": "0x1f1670",
+          "references": 2,
+          "instructions": 377,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x005f1cc0",
+          "rva": "0x1f1cc0",
+          "references": 1,
+          "instructions": 97,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x004a7ac0",
+          "rva": "0xa7ac0",
+          "references": 2,
+          "instructions": 8,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x004a7ae0",
+          "rva": "0xa7ae0",
+          "references": 2,
+          "instructions": 27,
+          "decompile_completed": true
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/seeds.json",
+      "sha256": "bd25ffe138028645c0129dc9e87139acbff7ac96e5c99b2a9a8ec89d01413518",
+      "targets": [
+        {
+          "va": "0x008900ac",
+          "rva": "0x4900ac",
+          "references": 98,
+          "instructions": null,
+          "decompile_completed": null
+        },
+        {
+          "va": "0x008900cc",
+          "rva": "0x4900cc",
+          "references": 2,
+          "instructions": null,
+          "decompile_completed": null
+        },
+        {
+          "va": "0x008900cd",
+          "rva": "0x4900cd",
+          "references": 2,
+          "instructions": null,
+          "decompile_completed": null
+        },
+        {
+          "va": "0x008654a4",
+          "rva": "0x4654a4",
+          "references": 101,
+          "instructions": null,
+          "decompile_completed": null
+        },
+        {
+          "va": "0x005fae20",
+          "rva": "0x1fae20",
+          "references": 2,
+          "instructions": 80,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x005faf10",
+          "rva": "0x1faf10",
+          "references": 1,
+          "instructions": 40,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x00605c70",
+          "rva": "0x205c70",
+          "references": 9,
+          "instructions": 554,
+          "decompile_completed": true
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/transform-path.json",
+      "sha256": "64502bd8c3d9cf73bb3ded39b88e2d284ec282a63bafeef907f52297169ddd35",
+      "targets": [
+        {
+          "va": "0x005fbd60",
+          "rva": "0x1fbd60",
+          "references": 13,
+          "instructions": 44,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x006005f0",
+          "rva": "0x2005f0",
+          "references": 2,
+          "instructions": 89,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x00602650",
+          "rva": "0x202650",
+          "references": 1,
+          "instructions": 374,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x005f4250",
+          "rva": "0x1f4250",
+          "references": 1,
+          "instructions": 113,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x0060a9a0",
+          "rva": "0x20a9a0",
+          "references": 1,
+          "instructions": 77,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x00513b30",
+          "rva": "0x113b30",
+          "references": 2,
+          "instructions": 5,
+          "decompile_completed": true
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/vector-math.json",
+      "sha256": "8f3c7333a8973dbd114d77f2421a4c74c6858cd44369268f69a9c816f53be733",
+      "targets": [
+        {
+          "va": "0x005f49f0",
+          "rva": "0x1f49f0",
+          "references": 1,
+          "instructions": 357,
+          "decompile_completed": true
+        },
+        {
+          "va": "0x0043cf90",
+          "rva": "0x3cf90",
+          "references": 25,
+          "instructions": 44,
+          "decompile_completed": true
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Static analysis only",
+    "Unresolved indirect references excluded by analyzer",
+    "Decompiler types and calling conventions are hypotheses"
+  ]
+}

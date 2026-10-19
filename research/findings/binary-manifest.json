@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "sha256": "f9dd86c054878ce6276beb07c1fd61874f7a1e4bf1f241b084c65b73e24168a7",
+  "size": 4800512,
+  "matches_expected": true,
+  "machine": "0x14c",
+  "format": "PE32",
+  "preferred_image_base": "0x400000",
+  "entry_rva": "0x35bcc7",
+  "sections": [
+    {
+      "name": ".text",
+      "virtual_size": 3676913,
+      "rva": 4096,
+      "raw_size": 3678208,
+      "raw_offset": 4096
+    },
+    {
+      "name": ".rdata",
+      "virtual_size": 410075,
+      "rva": 3682304,
+      "raw_size": 413696,
+      "raw_offset": 3682304
+    },
+    {
+      "name": ".data",
+      "virtual_size": 865784,
+      "rva": 4096000,
+      "raw_size": 217088,
+      "raw_offset": 4096000
+    },
+    {
+      "name": ".rsrc",
+      "virtual_size": 230734,
+      "rva": 4964352,
+      "raw_size": 233472,
+      "raw_offset": 4313088
+    },
+    {
+      "name": "        ",
+      "virtual_size": 240662,
+      "rva": 5197824,
+      "raw_size": 241664,
+      "raw_offset": 4546560
+    },
+    {
+      "name": "",
+      "virtual_size": 8192,
+      "rva": 5439488,
+      "raw_size": 8192,
+      "raw_offset": 4792320
+    }
+  ],
+  "hoodlum_file_offsets": [
+    4055,
+    3836840
+  ],
+  "evidence_method": "Python stdlib PE headers + SHA-256; no execution",
+  "version_interpretation": "Not established by PE identity; see community leads"
+}
