@@ -246,11 +246,1277 @@
           "decompile_completed": true
         }
       ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass1.json",
+      "sha256": "4ce90723081bfa3b4456eb99bf3353f9eeb8394445b2f429a7c4043162cafa86",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "fn:005811c0",
+          "function_entry": "0x005811c0",
+          "callers": 1,
+          "instructions": 235,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005ebd80",
+          "function_entry": "0x005ebd80",
+          "callers": 3,
+          "instructions": 48,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f0f00",
+          "function_entry": "0x005f0f00",
+          "callers": 1,
+          "instructions": 44,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005ffa50",
+          "function_entry": "0x005ffa50",
+          "callers": 1,
+          "instructions": 290,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f5580",
+          "function_entry": "0x005f5580",
+          "callers": 1,
+          "instructions": 129,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f5730",
+          "function_entry": "0x005f5730",
+          "callers": 1,
+          "instructions": 743,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f6350",
+          "function_entry": "0x005f6350",
+          "callers": 1,
+          "instructions": 313,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f1160",
+          "function_entry": "0x005f1160",
+          "callers": 9,
+          "instructions": 107,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:0059fa30",
+          "function_entry": "0x0059fa30",
+          "callers": 30,
+          "instructions": 38,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005fa770",
+          "function_entry": "0x005fa770",
+          "callers": 1,
+          "instructions": 57,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005fc0e0",
+          "function_entry": "0x005fc0e0",
+          "callers": 1,
+          "instructions": 21,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00600f30",
+          "function_entry": "0x00600f30",
+          "callers": 1,
+          "instructions": 36,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00600710",
+          "function_entry": "0x00600710",
+          "callers": 1,
+          "instructions": 163,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f3fb0",
+          "function_entry": "0x005f3fb0",
+          "callers": 1,
+          "instructions": 132,
+          "decompile_completed": true
+        },
+        {
+          "query": "refs:008654a4",
+          "references": 101
+        },
+        {
+          "query": "refs:00865154",
+          "references": 62
+        },
+        {
+          "query": "refs:0086518c",
+          "references": 356
+        },
+        {
+          "query": "refs:00890080",
+          "references": 311
+        },
+        {
+          "query": "disp:30:00590000:005a8000",
+          "hits": 253
+        },
+        {
+          "query": "disp:70:005e0000:00610000",
+          "hits": 174
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass10.json",
+      "sha256": "8654c66aa89beb9fab20997af5a40b772b757ebd96fc0ed07abbe6cc8c622136",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "disp:34:00400000:00610000",
+          "hits": 2576
+        },
+        {
+          "query": "fn:0042caa0",
+          "function_entry": "0x0042caa0",
+          "callers": 1,
+          "instructions": 216,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00604740",
+          "function_entry": "0x00604740",
+          "callers": 1,
+          "instructions": 771,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005fbbe0",
+          "function_entry": "0x005fbbe0",
+          "callers": 1,
+          "instructions": 117,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f7410",
+          "function_entry": "0x005f7410",
+          "callers": 1,
+          "instructions": 313,
+          "decompile_completed": true
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass11.json",
+      "sha256": "00621bd817d491053a7747327e30a9c87c5da2c230d2d785f9fef018fa78289d",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "pat:8bxx348bxxffxx04",
+          "hits": 1
+        },
+        {
+          "query": "pat:8bxx348bxxxxffxx04",
+          "hits": 0
+        },
+        {
+          "query": "pat:8bxx348bxxxxxxffxx04",
+          "hits": 0
+        },
+        {
+          "query": "pat:8bxx348bxxxxxxxxffxx04",
+          "hits": 1
+        },
+        {
+          "query": "pat:8bxx348bxxxxxxxxxxffxx04",
+          "hits": 0
+        },
+        {
+          "query": "pat:8bxx348bxxxxxxxxxxxxffxx04",
+          "hits": 1
+        },
+        {
+          "query": "dwords:007a25e0:16",
+          "dwords": 16
+        },
+        {
+          "query": "dwords:007a2144:16",
+          "dwords": 16
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass12.json",
+      "sha256": "503443ab9218e0b3aaa3c7bdb7a8b23ca7eaf8add0f1586a74853196b9fd3b49",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "fn:006012b0",
+          "function_entry": "0x006012b0",
+          "callers": 1,
+          "instructions": 256,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00467d70",
+          "function_entry": "0x00467d70",
+          "callers": 2,
+          "instructions": 28,
+          "decompile_completed": true
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass13.json",
+      "sha256": "b08031735172099e353b65c12c9b6618d9b81ec95339d6f688a546a8ea6c0098",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "ins:005a9ec0:005a9f60",
+          "instructions": 42
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass14.json",
+      "sha256": "b804d16c6d8eb0d4abf2e0cd76a8c56a10edf64244b6418f0db651a2e46c0288",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "ptrscan:005a9f10",
+          "hits": 1
+        },
+        {
+          "query": "disp:130:005a0000:005b8000",
+          "hits": 42
+        },
+        {
+          "query": "fn:00593210",
+          "function_entry": "0x00593210",
+          "callers": 2,
+          "instructions": 33,
+          "decompile_completed": true
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass15.json",
+      "sha256": "cb51e1f4bc417d7dfb6c78019dd1eda89ef462b7a1e342c48998411aca00a8d0",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "dwords:007a2460:24",
+          "dwords": 24
+        },
+        {
+          "query": "fn:005aec20",
+          "function_entry": "0x005aec20",
+          "callers": 2,
+          "instructions": 173,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005a7f30",
+          "function_entry": "0x005a7f30",
+          "callers": 4,
+          "instructions": 82,
+          "decompile_completed": true
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass16.json",
+      "sha256": "a91cfcc72c5abc242dbd12ae81102be03287393b6f17008a2cd47d901536f97b",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "fn:005a5540",
+          "function_entry": "0x005a5540",
+          "callers": 1,
+          "instructions": 479,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005a2b60",
+          "function_entry": "0x005a2b60",
+          "callers": 2,
+          "instructions": 328,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005b72d0",
+          "function_entry": "0x005b72d0",
+          "callers": 1,
+          "instructions": 178,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f5010",
+          "function_entry": "0x005f5010",
+          "callers": 7,
+          "instructions": 50,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f50a0",
+          "function_entry": "0x005f50a0",
+          "callers": 2,
+          "instructions": 149,
+          "decompile_completed": true
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass17.json",
+      "sha256": "80446b57db7f04fa3ef768aeb934349a4554824574770a6fe5e31257dacac91f",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "refs:005782f0",
+          "references": 1
+        },
+        {
+          "query": "refs:0057ff10",
+          "references": 2
+        },
+        {
+          "query": "refs:00581a20",
+          "references": 1
+        },
+        {
+          "query": "refs:00580090",
+          "references": 1
+        },
+        {
+          "query": "refs:005815c0",
+          "references": 2
+        },
+        {
+          "query": "refs:00580ef0",
+          "references": 2
+        },
+        {
+          "query": "refs:0057f210",
+          "references": 2
+        },
+        {
+          "query": "refs:00581580",
+          "references": 1
+        },
+        {
+          "query": "ins:005817c0:005818f3",
+          "instructions": 80
+        },
+        {
+          "query": "bytes:007fc070:4",
+          "bytes": 4
+        },
+        {
+          "query": "bytes:00784250:28",
+          "bytes": 28
+        },
+        {
+          "query": "bytes:0078435c:4",
+          "bytes": 4
+        },
+        {
+          "query": "bytes:007a5730:4",
+          "bytes": 4
+        },
+        {
+          "query": "bytes:007d7d3c:4",
+          "bytes": 4
+        },
+        {
+          "query": "bytes:00784504:4",
+          "bytes": 4
+        },
+        {
+          "query": "bytes:00788150:4",
+          "bytes": 4
+        },
+        {
+          "query": "refs:00865484",
+          "references": 23
+        },
+        {
+          "query": "refs:00865154",
+          "references": 62
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass18.json",
+      "sha256": "1284ae3df3879ce2e9666768305b8ff15888d000f46283102f7e7500ba8fc3b2",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "fn:006065b0",
+          "function_entry": "0x006065b0",
+          "callers": 1,
+          "instructions": 115,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005ff490",
+          "function_entry": "0x005ff490",
+          "callers": 1,
+          "instructions": 148,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00606480",
+          "function_entry": "0x00606480",
+          "callers": 1,
+          "instructions": 104,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00601110",
+          "function_entry": "0x00601110",
+          "callers": 2,
+          "instructions": 129,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005fb5f0",
+          "function_entry": "0x005fb5f0",
+          "callers": 1,
+          "instructions": 491,
+          "decompile_completed": true
+        },
+        {
+          "query": "ins:005f44c0:005f4642",
+          "instructions": 112
+        },
+        {
+          "query": "refs:005f44d0",
+          "references": 2
+        },
+        {
+          "query": "ptrscan:005f44d0",
+          "hits": 0
+        },
+        {
+          "query": "fn:004fea5c",
+          "function_entry": "0x004fe9f0",
+          "callers": 11,
+          "instructions": 67,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:0042f9b3",
+          "function_entry": "0x0042f910",
+          "callers": 1,
+          "instructions": 141,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00417a8e",
+          "function_entry": "0x004179f0",
+          "callers": 1,
+          "instructions": 55,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:0060a9a0",
+          "function_entry": "0x0060a9a0",
+          "callers": 1,
+          "instructions": 77,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005ff6f0",
+          "function_entry": "0x005ff6f0",
+          "callers": 1,
+          "instructions": 104,
+          "decompile_completed": true
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass19.json",
+      "sha256": "c02b0be02afa0ebba2bc77ab814ebdd12236de5db9e3ac1dd3510f3c468490d6",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "fn:005f0d20",
+          "function_entry": "0x005f0d20",
+          "callers": 2,
+          "instructions": 87,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005ff3b0",
+          "function_entry": "0x005ff3b0",
+          "callers": 3,
+          "instructions": 22,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00604260",
+          "function_entry": "0x00604260",
+          "callers": 3,
+          "instructions": 303,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005ed920",
+          "function_entry": "0x005ed920",
+          "callers": 11,
+          "instructions": 28,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:0042f7a0",
+          "function_entry": "0x0042f7a0",
+          "callers": 1,
+          "instructions": 32,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f43d0",
+          "function_entry": "0x005f43d0",
+          "callers": 5,
+          "instructions": 5,
+          "decompile_completed": true
+        },
+        {
+          "query": "refs:005ff3b0",
+          "references": 3
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass2.json",
+      "sha256": "0df66410613953300ae5f2c287b8005c0dcd7097f174bf6079422defe360586b",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "disp:3f0:00400000:00780000",
+          "hits": 27
+        },
+        {
+          "query": "disp:430:00400000:00780000",
+          "hits": 210
+        },
+        {
+          "query": "disp:2c:005e0000:00610000",
+          "hits": 308
+        },
+        {
+          "query": "fn:00592160",
+          "function_entry": "0x00592160",
+          "callers": 7,
+          "instructions": 26,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005925b0",
+          "function_entry": "0x005925b0",
+          "callers": 8,
+          "instructions": 48,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00592500",
+          "function_entry": "0x00592500",
+          "callers": 9,
+          "instructions": 41,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00598760",
+          "function_entry": "0x00598760",
+          "callers": 4,
+          "instructions": 26,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00598620",
+          "function_entry": "0x00598620",
+          "callers": 3,
+          "instructions": 83,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00598240",
+          "function_entry": "0x00598240",
+          "callers": 2,
+          "instructions": 94,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:0059ec80",
+          "function_entry": "0x0059ec80",
+          "callers": 1,
+          "instructions": 596,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:0059f880",
+          "function_entry": "0x0059f880",
+          "callers": 2,
+          "instructions": 99,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:0059c120",
+          "function_entry": "0x0059c120",
+          "callers": 1,
+          "instructions": 68,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:0059eb90",
+          "function_entry": "0x0059eb90",
+          "callers": 1,
+          "instructions": 69,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005ea2b0",
+          "function_entry": "0x005ea2b0",
+          "callers": 1,
+          "instructions": 26,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005ea320",
+          "function_entry": "0x005ea320",
+          "callers": 2,
+          "instructions": 18,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005ea360",
+          "function_entry": "0x005ea360",
+          "callers": 1,
+          "instructions": 99,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00601a60",
+          "function_entry": "0x00601a60",
+          "callers": 4,
+          "instructions": 141,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f00f0",
+          "function_entry": "0x005f00f0",
+          "callers": 77,
+          "instructions": 13,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f0130",
+          "function_entry": "0x005f0130",
+          "callers": 1,
+          "instructions": 5,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f0140",
+          "function_entry": "0x005f0140",
+          "callers": 1,
+          "instructions": 5,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f1390",
+          "function_entry": "0x005f1390",
+          "callers": 1,
+          "instructions": 108,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00581050",
+          "function_entry": "0x00581050",
+          "callers": 1,
+          "instructions": 71,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00578e10",
+          "function_entry": "0x00578e10",
+          "callers": 2,
+          "instructions": 34,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005809c0",
+          "function_entry": "0x005809c0",
+          "callers": 9,
+          "instructions": 302,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:0057ee00",
+          "function_entry": "0x0057ee00",
+          "callers": 1,
+          "instructions": 108,
+          "decompile_completed": true
+        },
+        {
+          "query": "refs:0089e808",
+          "references": 9
+        },
+        {
+          "query": "refs:0089e80c",
+          "references": 4
+        },
+        {
+          "query": "refs:0089e7ac",
+          "references": 4
+        },
+        {
+          "query": "fn:005ed920",
+          "function_entry": "0x005ed920",
+          "callers": 11,
+          "instructions": 28,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:0060a680",
+          "function_entry": "0x0060a680",
+          "callers": 1,
+          "instructions": 224,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:0057f210",
+          "function_entry": "0x0057f210",
+          "callers": 2,
+          "instructions": 46,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:0057f2d0",
+          "function_entry": "0x0057f2d0",
+          "callers": 4,
+          "instructions": 646,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00580ef0",
+          "function_entry": "0x00580ef0",
+          "callers": 2,
+          "instructions": 52,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005815c0",
+          "function_entry": "0x005815c0",
+          "callers": 2,
+          "instructions": 134,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00581580",
+          "function_entry": "0x00581580",
+          "callers": 1,
+          "instructions": 9,
+          "decompile_completed": true
+        },
+        {
+          "query": "bytes:005782b0:96",
+          "bytes": 96
+        },
+        {
+          "query": "bytes:0057fef0:64",
+          "bytes": 64
+        },
+        {
+          "query": "bytes:00580060:128",
+          "bytes": 128
+        },
+        {
+          "query": "bytes:00581960:64",
+          "bytes": 64
+        },
+        {
+          "query": "bytes:00581a00:64",
+          "bytes": 64
+        },
+        {
+          "query": "refs:00865198",
+          "references": 95
+        },
+        {
+          "query": "bytes:004022c0:16",
+          "bytes": 16
+        },
+        {
+          "query": "fn:00609ce0",
+          "function_entry": "0x00609ce0",
+          "callers": 1,
+          "instructions": 476,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00602650",
+          "function_entry": "0x00602650",
+          "callers": 1,
+          "instructions": 374,
+          "decompile_completed": true
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass20.json",
+      "sha256": "82cf4fb0906bc92107a40ca4cc1869028cbfa3ae55295ecdd8e476d184e447a4",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "fn:0042c670",
+          "function_entry": "0x0042c670",
+          "callers": 3,
+          "instructions": 223,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:0042e2c0",
+          "function_entry": "0x0042e2c0",
+          "callers": 1,
+          "instructions": 143,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:0042e0b0",
+          "function_entry": "0x0042e0b0",
+          "callers": 1,
+          "instructions": 165,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:0042e4a0",
+          "function_entry": "0x0042e4a0",
+          "callers": 1,
+          "instructions": 10,
+          "decompile_completed": true
+        },
+        {
+          "query": "refs:005f44d0",
+          "references": 2
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass3.json",
+      "sha256": "dabc77e550acd1ca7b2c28ed3ea575fc86b7b46a4d12352b85a410d57dda2b8d",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "fn:005eba30",
+          "function_entry": "0x005eba30",
+          "callers": 17,
+          "instructions": 110,
+          "decompile_completed": true
+        },
+        {
+          "query": "dwords:007a2120:24",
+          "dwords": 24
+        },
+        {
+          "query": "ptrscan:0059ec80",
+          "hits": 1
+        },
+        {
+          "query": "fn:005a92f0",
+          "function_entry": "0x005a92f0",
+          "callers": 1,
+          "instructions": 58,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f50a0",
+          "function_entry": "0x005f50a0",
+          "callers": 2,
+          "instructions": 149,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f67f0",
+          "function_entry": "0x005f67f0",
+          "callers": 3,
+          "instructions": 16,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f5010",
+          "function_entry": "0x005f5010",
+          "callers": 7,
+          "instructions": 50,
+          "decompile_completed": true
+        },
+        {
+          "query": "refs:007a2138",
+          "references": 1
+        },
+        {
+          "query": "refs:007a2130",
+          "references": 1
+        },
+        {
+          "query": "refs:007a2128",
+          "references": 0
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass4.json",
+      "sha256": "cca541fde0eae94e5ea90102660b5f9ed864c8000b9ded6434bf5e118b09e99b",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "refs:007a2144",
+          "references": 2
+        },
+        {
+          "query": "ptrscan:007a2144",
+          "hits": 2
+        },
+        {
+          "query": "fn:005eb930",
+          "function_entry": "0x005eb930",
+          "callers": 3,
+          "instructions": 37,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:004266d0",
+          "function_entry": "0x004266d0",
+          "callers": 1,
+          "instructions": 81,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:004299c0",
+          "function_entry": "0x004299c0",
+          "callers": 1,
+          "instructions": 45,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:004260b0",
+          "function_entry": "0x004260b0",
+          "callers": 5,
+          "instructions": 97,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00426580",
+          "function_entry": "0x00426580",
+          "callers": 1,
+          "instructions": 52,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00426650",
+          "function_entry": "0x00426650",
+          "callers": 1,
+          "instructions": 37,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f3010",
+          "function_entry": "0x005f3010",
+          "callers": 1,
+          "instructions": 43,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005f3080",
+          "function_entry": "0x005f3080",
+          "callers": 1,
+          "instructions": 42,
+          "decompile_completed": true
+        },
+        {
+          "query": "bytes:005ebbc4:24",
+          "bytes": 24
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass5.json",
+      "sha256": "a1a3a406748e409e97ab76345c6830a40c41432835e80790c47b1473b7630292",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "dwords:00785230:12",
+          "dwords": 12
+        },
+        {
+          "query": "dwords:00785518:12",
+          "dwords": 12
+        },
+        {
+          "query": "dwords:00785370:12",
+          "dwords": 12
+        },
+        {
+          "query": "dwords:00785428:12",
+          "dwords": 12
+        },
+        {
+          "query": "dwords:00784680:12",
+          "dwords": 12
+        },
+        {
+          "query": "dwords:007a5ca8:12",
+          "dwords": 12
+        },
+        {
+          "query": "fn:00425fc0",
+          "function_entry": "0x00425fc0",
+          "callers": 2,
+          "instructions": 55,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005a9030",
+          "function_entry": "0x005a9030",
+          "callers": 1,
+          "instructions": 222,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005a92f0",
+          "function_entry": "0x005a92f0",
+          "callers": 1,
+          "instructions": 58,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00592e60",
+          "function_entry": "0x00592e60",
+          "callers": 3,
+          "instructions": 47,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00591d70",
+          "function_entry": "0x00591d70",
+          "callers": 1,
+          "instructions": 7,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00592bd0",
+          "function_entry": "0x00592bd0",
+          "callers": 1,
+          "instructions": 16,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005eb930",
+          "function_entry": "0x005eb930",
+          "callers": 3,
+          "instructions": 37,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00426650",
+          "function_entry": "0x00426650",
+          "callers": 1,
+          "instructions": 37,
+          "decompile_completed": true
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass6.json",
+      "sha256": "18ae81d5699e74534e8521447a86b36dabe781794baaefa513c1de11b12da8eb",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "ins:005f43b0:005f49f0",
+          "instructions": 486
+        },
+        {
+          "query": "ins:00578200:00578340",
+          "instructions": 85
+        },
+        {
+          "query": "ins:0057fe80:00580120",
+          "instructions": 182
+        },
+        {
+          "query": "ins:005818f0:00581a80",
+          "instructions": 103
+        },
+        {
+          "query": "dwords:00784fc8:10",
+          "dwords": 10
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass7.json",
+      "sha256": "50cb8b8eb218b544fd4e496d785da648216db7371cfc8b5223ae6f2227f73c4b",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "dwords:005f493c:6",
+          "dwords": 6
+        },
+        {
+          "query": "refs:005f46a0",
+          "references": 46
+        },
+        {
+          "query": "ptrscan:005f46a0",
+          "hits": 0
+        },
+        {
+          "query": "bytes:005f4690:24",
+          "bytes": 24
+        },
+        {
+          "query": "dwords:007a5bb0:10",
+          "dwords": 10
+        },
+        {
+          "query": "fn:005b5cc0",
+          "function_entry": "0x005b5cc0",
+          "callers": 1,
+          "instructions": 478,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:00408740",
+          "function_entry": "0x00408740",
+          "callers": 1,
+          "instructions": 22,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005b6d00",
+          "function_entry": "0x005b6d00",
+          "callers": 1,
+          "instructions": 219,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005b6fc0",
+          "function_entry": "0x005b6fc0",
+          "callers": 1,
+          "instructions": 238,
+          "decompile_completed": true
+        },
+        {
+          "query": "dwords:007a2144:10",
+          "dwords": 10
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass8.json",
+      "sha256": "38c0c8e1bd77469b59341136089fc72e9e8cf10bc8dd5bf8788c8baa380321a2",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "dwords:007a25e0:10",
+          "dwords": 10
+        },
+        {
+          "query": "dwords:0078456c:10",
+          "dwords": 10
+        },
+        {
+          "query": "dwords:007a2538:10",
+          "dwords": 10
+        },
+        {
+          "query": "dwords:007a2590:10",
+          "dwords": 10
+        },
+        {
+          "query": "fn:0041e2c0",
+          "error": "no function"
+        },
+        {
+          "query": "fn:005eb920",
+          "error": "no function"
+        },
+        {
+          "query": "fn:005b5cc0",
+          "function_entry": "0x005b5cc0",
+          "callers": 1,
+          "instructions": 478,
+          "decompile_completed": true
+        }
+      ]
+    },
+    {
+      "file": "research/ghidra/exports/p3a-pass9.json",
+      "sha256": "1a39aa044f20102db5d979e12579f7dc1dd2a4412e3159265bf8b26e3c5c165b",
+      "script": "research/ghidra/ExportQueries.java",
+      "queries": [
+        {
+          "query": "disp:40:00590000:005b8000",
+          "hits": 251
+        },
+        {
+          "query": "disp:40:005e0000:00610000",
+          "hits": 164
+        },
+        {
+          "query": "fn:005f6d50",
+          "function_entry": "0x005f6d50",
+          "callers": 4,
+          "instructions": 70,
+          "decompile_completed": true
+        },
+        {
+          "query": "ins:005eb900:005eb930",
+          "instructions": 11
+        },
+        {
+          "query": "ins:0041e2c0:0041e400",
+          "instructions": 84
+        },
+        {
+          "query": "fn:005b72d0",
+          "function_entry": "0x005b72d0",
+          "callers": 1,
+          "instructions": 178,
+          "decompile_completed": true
+        },
+        {
+          "query": "fn:005aad90",
+          "error": "no function"
+        },
+        {
+          "query": "ins:005ab3c0:005ab600",
+          "instructions": 171
+        },
+        {
+          "query": "fn:00408820",
+          "function_entry": "0x00408820",
+          "callers": 1,
+          "instructions": 308,
+          "decompile_completed": true
+        }
+      ]
     }
   ],
   "limitations": [
     "Static analysis only",
     "Unresolved indirect references excluded by analyzer",
-    "Decompiler types and calling conventions are hypotheses"
+    "Decompiler types and calling conventions are hypotheses",
+    "Phase 3a query exports (p3a-pass*) list raw bytes, xrefs and listings; pseudocode stays local",
+    "Functions not recognised by auto-analysis (e.g. 0x005F46A0) are inspected through ins: listings only"
   ]
 }

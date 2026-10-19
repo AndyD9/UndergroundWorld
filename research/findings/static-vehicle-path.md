@@ -158,3 +158,6 @@ Preuves : `lifecycle.json`, `orientation-tick.json`.
 
 Aucun offset n'a été intégré au client, aucun accès moteur activé, aucun hook
 créé. La télémétrie et la seconde voiture locale ne sont pas encore validées.
+
+Suite : [passe statique 2](static-pass-2.md) (producteurs de vitesse, pas temporel,
+GameFlow, site de hook, cycle de vie des véhicules monde).

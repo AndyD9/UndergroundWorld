@@ -35,6 +35,23 @@ la première passe contiennent 30 cibles, sans troncature explicite et avec succ
 de décompilation pour les fonctions demandées ; les limites de l'analyse
 automatique et les appels indirects non résolus subsistent.
 
+## Requêtes de la phase 3a
+
+`ExportQueries.java`, lancé par `tools/query-ghidra.ps1`, ajoute des requêtes en
+lecture seule : `fn:VA` (fonction avec octets, appelants et pseudocode local),
+`refs:VA`, `bytes:VA:N`, `dwords:VA:N`, `ptrscan:VA` (valeur 32 bits en mémoire),
+`disp:HEX:DEBUT:FIN` (opérandes mémoire avec ce déplacement), `ins:DEBUT:FIN`
+(listing hors fonction reconnue) et `pat:HEX` (motif d'octets, `xx` = joker).
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File tools/query-ghidra.ps1 -OutputName p3a-passN -Queries 'fn:00602650,refs:008654A4'
+```
+
+Depuis un worktree Git, ajouter `-DataRoot` vers la copie principale qui contient
+`research/binaries` et `research/ghidra/projects`. Mêmes garde-fous que
+`inspect-ghidra.ps1` : empreinte vérifiée, nom de sortie nouveau, base en lecture seule.
+Résultats : `../findings/static-pass-2.md`.
+
 Pour reproduire, lancer :
 
 ```powershell

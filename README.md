@@ -18,6 +18,7 @@ Ghidra pour le projet et les avertissements conservés.
 - [Sources et licences](docs/sources.md)
 - [Pistes communautaires](research/findings/community-leads.md)
 - [Résultats statiques joueur, position et cycle de vie](research/findings/static-vehicle-path.md)
+- [Passe statique 2 : vitesse, GameFlow, hook, véhicules monde](research/findings/static-pass-2.md)
 - [Identité reproductible](research/findings/binary-manifest.json)
 - [Préparation Ghidra](research/ghidra/README.md)
 
