@@ -6,14 +6,16 @@ la conduite, le tuning et l'ambiance. Premier jalon : deux joueurs roulant ensem
 État au 19 octobre 2026 : base et recherche statique réalisées, empreinte locale
 confirmée. ASI de diagnostic **compilé en x86** (MSVC 19.44, CRT statique) avec
 amorçage DllMain, validé hors jeu puis **chargé en jeu sans plantage** (empreinte
-reconnue, profil moddé). Aucun accès moteur ni hook à ce stade.
-Aucun accès moteur validé, aucune synchronisation réseau implémentée.
+reconnue, profil moddé). Phase 3b en cours : hook de frame et télémétrie **lecture
+seule** implémentés, compilés et testés hors jeu ; **pas encore exécutés en jeu**.
+Aucune synchronisation réseau implémentée.
 
 Mise à jour : Ghidra 12.1.4 fonctionne avec le JDK Temurin 25 installé ; l'import,
 l'analyse automatique x86 et la sauvegarde du projet ont réussi. Voir le guide
 Ghidra pour le projet et les avertissements conservés.
 
 - [Compilation et diagnostic](docs/build.md)
+- [Télémétrie lecture seule et protocole de test](docs/telemetry.md)
 - [Architecture et étapes](docs/architecture.md)
 - [Bilan et prochaines recherches](research/findings/phase-1.md)
 - [Sources et licences](docs/sources.md)

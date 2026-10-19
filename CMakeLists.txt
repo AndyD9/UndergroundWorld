@@ -10,7 +10,9 @@ if(UGWORLD_BUILD_CLIENT)
   if(NOT WIN32 OR NOT CMAKE_SIZEOF_VOID_P EQUAL 4)
     message(FATAL_ERROR "UGWorld.asi requires Windows x86: configure with -A Win32")
   endif()
-  add_library(UGWorld SHARED client/src/core/plugin.cpp client/src/core/identity.cpp)
+  add_library(UGWorld SHARED
+    client/src/core/plugin.cpp client/src/core/identity.cpp client/src/core/log.cpp
+    client/src/game/frame_hook.cpp client/src/game/telemetry.cpp)
   target_compile_definitions(UGWorld PRIVATE WIN32_LEAN_AND_MEAN NOMINMAX UNICODE _UNICODE)
   target_link_libraries(UGWorld PRIVATE bcrypt)
   set_target_properties(UGWorld PROPERTIES PREFIX "" SUFFIX ".asi")

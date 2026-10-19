@@ -1,31 +1,36 @@
 #include "identity.hpp"
+#include "log.hpp"
+#include "../game/frame_hook.hpp"
+#include "../game/telemetry.hpp"
 #include <windows.h>
 #include <string>
 
 static_assert(sizeof(void*) == 4, "ASI must be x86");
+using ugworld::log;
 namespace {
 volatile LONG state = 0; // 0 idle, 1 checking, 2 recognized, -1 disabled
-void log(const char* text) noexcept {
-    OutputDebugStringA(text);
-    // Absolute per-user temporary path, never the game's working directory.
-    wchar_t directory[MAX_PATH + 1]{};
-    const DWORD length = GetTempPathW(MAX_PATH, directory);
-    if (!length || length >= MAX_PATH) return;
-    try {
-        const auto path = std::wstring(directory) + L"UGWorld-diagnostic.log";
-        HANDLE file = CreateFileW(path.c_str(), FILE_APPEND_DATA, FILE_SHARE_READ | FILE_SHARE_WRITE,
-                                  nullptr, OPEN_ALWAYS, FILE_ATTRIBUTE_NORMAL, nullptr);
-        if (file == INVALID_HANDLE_VALUE) return;
-        DWORD written = 0;
-        WriteFile(file, text, static_cast<DWORD>(lstrlenA(text)), &written, nullptr);
-        CloseHandle(file);
-    } catch (...) { /* logging failure must not affect the host */ }
+
+// Read-only telemetry (phase 3b): only after the fingerprint matched. The module is
+// pinned first because the hook leaves engine code pointing into it for good.
+void start_telemetry() noexcept {
+    HMODULE pinned = nullptr;
+    if (!GetModuleHandleExW(GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS | GET_MODULE_HANDLE_EX_FLAG_PIN,
+                            reinterpret_cast<LPCWSTR>(&start_telemetry), &pinned)) {
+        log("UGWorld: cannot pin module; telemetry disabled.\r\n");
+        return;
+    }
+    ugworld::log_loaded_modules();
+    if (!ugworld::telemetry_start()) {
+        log("UGWorld: writer thread failed; telemetry disabled.\r\n");
+        return;
+    }
+    ugworld::install_frame_hook();
 }
 }
 
-// Diagnostic entry point, invoked once OUTSIDE loader lock by the DllMain bootstrap
-// thread (or explicitly by a test host). It hashes the executable and logs; it never
-// touches engine memory, installs hooks, or starts further threads.
+// Entry point, invoked once OUTSIDE loader lock by the DllMain bootstrap thread (or
+// explicitly by a test host). It hashes the executable; only on a match does it start
+// the read-only telemetry, which hooks the frame tick and reads engine memory.
 extern "C" __declspec(dllexport) DWORD WINAPI UGWorldInitialize() noexcept {
     const LONG previous = InterlockedCompareExchange(&state, 1, 0);
     if (previous != 0) return previous == 2 ? ERROR_SUCCESS : ERROR_NOT_READY;
@@ -38,7 +43,8 @@ extern "C" __declspec(dllexport) DWORD WINAPI UGWorldInitialize() noexcept {
             return ERROR_BAD_EXE_FORMAT;
         }
         InterlockedExchange(&state, 2);
-        log("UGWorld: disk fingerprint recognized; engine access remains disabled.\r\n");
+        log("UGWorld: disk fingerprint recognized; starting read-only telemetry.\r\n");
+        start_telemetry();
         return ERROR_SUCCESS;
     } catch (...) {
         InterlockedExchange(&state, -1);

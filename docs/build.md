@@ -31,8 +31,9 @@ prend une référence sur le module (`GetModuleHandleExW`) et lance un unique th
 sans l'attendre ; ce thread ne s'exécute qu'après la libération du verrou du
 chargeur, appelle `UGWorldInitialize` puis rend la référence via
 `FreeLibraryAndExitThread`. Si la création du thread échoue, la référence est
-volontairement conservée (pas de `FreeLibrary` dans DllMain). Aucun hook n'est
-installé et aucune mémoire moteur n'est lue.
+volontairement conservée (pas de `FreeLibrary` dans DllMain). Depuis la phase 3b,
+une empreinte reconnue démarre la télémétrie lecture seule (hook de frame), décrite
+dans [telemetry.md](telemetry.md) ; une empreinte inconnue ne démarre rien.
 
 L'export vérifie la taille et le SHA-256 du fichier de l'exécutable courant via
 Windows CNG. Une erreur ou une empreinte inconnue désactive l'initialisation pour
