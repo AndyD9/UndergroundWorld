@@ -55,6 +55,11 @@ mods et les conventions d'appel, puis documenter le désarmement et l'unload.
   journalise un refus « unknown/unreadable executable » ; quatre appels concurrents
   à l'export renvoient `ERROR_NOT_READY` (21) sans relancer l'empreinte ni journaliser.
 
-Restent à faire : fichier inaccessible, journal non inscriptible, puis chargement
-dans le jeu reconnu (copie dans `scripts/` via l'ASI loader existant, profils
-vanilla et moddé). Le jeu n'a pas été lancé.
+- **Chargement en jeu (profil moddé)** : `UGWorld.asi` (SHA-256 `a70d381d…6533`) copié
+  dans `scripts/` à côté d'ExtraOptions, Unlimiter et WidescreenFix, chargé par
+  l'Ultimate ASI Loader existant. Partie lancée par l'utilisateur : journal unique
+  « disk fingerprint recognized » à 17:52:09, aucun plantage signalé ni événement
+  d'erreur Windows pour `SPEED2.EXE`. **Critère de sortie de phase 2 atteint.**
+
+Restent à faire, non bloquants : profil vanilla (sans les autres ASI), fichier
+inaccessible, journal non inscriptible.

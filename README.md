@@ -5,7 +5,8 @@ la conduite, le tuning et l'ambiance. Premier jalon : deux joueurs roulant ensem
 
 État au 19 octobre 2026 : base et recherche statique réalisées, empreinte locale
 confirmée. ASI de diagnostic **compilé en x86** (MSVC 19.44, CRT statique) avec
-amorçage DllMain, validé par un hôte synthétique hors jeu. Aucun lancement du jeu ni injection.
+amorçage DllMain, validé hors jeu puis **chargé en jeu sans plantage** (empreinte
+reconnue, profil moddé). Aucun accès moteur ni hook à ce stade.
 Aucun accès moteur validé, aucune synchronisation réseau implémentée.
 
 Mise à jour : Ghidra 12.1.4 fonctionne avec le JDK Temurin 25 installé ; l'import,
